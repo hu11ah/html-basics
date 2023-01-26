@@ -1,0 +1,257 @@
+/* TYPOGRAPHY  */
+
+p {
+  text-align: justify;
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace; 
+    font-weight: bold;
+    font-weight: 700;
+    color: #01161E;
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', monospace; 
+    font-weight: bold;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #AEC3B0;
+    color: #124559;
+    padding: 2em;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100vw - 100px);
+  border-width: 1px;
+  border-color: red;
+  border-style: black;
+  /* This is a maths calculation to give a precise value */
+}
+
+/* Navigation */
+
+nav {
+    background-color: #124559;
+    padding: 20px;
+  }
+
+nav ul {
+    padding: 0;
+    word-spacing: 60px;
+  }
+
+nav ul li {
+    display: inline;
+  }
+
+nav ul li a {
+    color: #AEC3B0;
+    text-decoration: none;
+  }
+
+  /* Links */
+
+a {
+    color: #598392;
+  }
+
+a:hover {
+    color: white;
+  }
+
+a:visited {
+    color: none;
+  }
+
+  /* Sections  */
+
+.portfolio-item {
+    padding: 16px;
+    border: 1px black
+    margin 0 1em 0em 1em;
+    margin-bottom: 2em;
+} 
+
+.portfolio-item {
+    background-color: #598392;
+    color: white;
+}
+
+.portfolio-item p {
+    color: black;
+    padding: 0 2em 0 2em;
+    text-align: justify;
+}
+
+.portfolio-image {
+    border: 2px solid;
+    border-radius: 15px 50px;
+    max-width: 50%;
+}
+
+  /* Footer  */
+
+.social-footer ul li {
+    color: #AEC3B0;
+    display: inline;
+}
+
+section ul li i {
+  padding: 20px;
+}
+
+.social-footer {
+    background-color: #124559;
+    padding: 0.5em;
+}
+
+i:hover {
+    color: white;
+}
+
+  /* Form  */
+
+form
+{
+
+}
+
+input[type=text] {
+  width: 400px;
+  padding: 8px;
+  background-color: #598392;
+  border: 0;
+}
+
+input[type=tel] {
+  width: 400px;
+  padding: 8px;
+  background-color: #598392;
+  border: 0;
+}
+
+input[type=email] {
+  width: 400px;
+  padding: 8px;
+  background-color: #598392;
+  border: 0;
+}
+
+input[type=textbox] {
+  width: 400px;
+  height: 200px;
+  padding: 8px;
+  background-color: #598392;
+  border: 0;
+}
+
+.formbutton button {
+  color: white;
+  background-color: #124559;
+  border: 2px solid;
+  border-color: #124559;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 20px 10px 20px;
+}
+
+.formbutton button:hover {
+  color: #AEC3B0;
+}
+
+.formfield, label {
+  padding: 10px 0 0 0;
+}
+
+section form fieldset
+{
+  border: 0;
+  margin: 0;
+  padding: 0%;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+/* ------- FEATURE BOX ------- */ 
+
+/* Header */
+
+.top-section {
+
+  background-image:
+  linear-gradient,
+  url('images/background.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section h1, .top-section h2 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Grid Items */
+
+.grid {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+
+/* Individual Grid Items */
+
+.grid-item {
+  border-width: 1px;
+  border-color: #124559;
+  border-style: solid;
+  flex-basis: calc(100% / 4 - 10px);
+  margin: auto;
+  box-sizing: border-box;
+  padding: 16px;
+  margin 0 1em 0em 1em;
+  margin-bottom: 2em;
+}
+
+
+.grid-item > h3 {
+  margin-top:0;
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+a {
+  display:block;
+}
+
+.grid-item > img {
+  width: 100%;
+}
+
+.second-grid-item {
+  border-width: 1px;
+  border-color: #124559;
+  border-style: solid;
+  flex-basis: calc(100% / 4 - 10px);
+  margin: auto;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px black
+  margin 0 1em 0em 1em;
+  margin-bottom: 2em;
+}
